@@ -1,0 +1,99 @@
+.pix-payment.checkout {
+  max-width: 30rem;
+  margin: auto;
+}
+.pix-payment.checkout .payment-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+.pix-payment.checkout .payment-info .qrcode span {
+  display: block;
+  font-size: 1.6rem;
+}
+.pix-payment.checkout .payment-info .qrcode img {
+  width: 25rem;
+  height: 25rem;
+}
+.pix-payment.checkout .payment-info .separate-text {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.pix-payment.checkout .payment-info .pxicode .title {
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 0 2.5rem;
+}
+.pix-payment.checkout .payment-info .pxicode .pix-code {
+  height: 115px;
+  border-radius: 0.8rem;
+  margin: 2rem 0;
+  padding: 10px 1.3rem 0;
+  background: #E3E3E3;
+  scrollbar-width: auto;
+  scrollbar-color: #8f54a0 transparent;
+  /* Chrome, Edge, and Safari */
+}
+.pix-payment.checkout .payment-info .pxicode .pix-code::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 0.8rem;
+}
+.pix-payment.checkout .payment-info .pxicode .pix-code::-webkit-scrollbar-track {
+  background: transparent;
+}
+.pix-payment.checkout .payment-info .pxicode .pix-code::-webkit-scrollbar-thumb {
+  background-color: #8f54a0;
+  border-radius: 10px;
+  border: 3px solid gray;
+}
+.pix-payment.checkout .payment-info .pxicode .pix-code textarea {
+  max-height: 115px;
+  min-height: 115px;
+  background: transparent;
+  border: none;
+  font-size: 1.3rem;
+  width: 100% !important;
+  outline: none;
+}
+.pix-payment.checkout .payment-info .pxicode .action-primary {
+  width: 100%;
+  height: 6rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.pix-payment.checkout .separate-bar {
+  margin: 3.2rem 0;
+  height: 0.3rem;
+  border: none;
+  background: red;
+}
+.pix-payment.checkout .instruction {
+  text-align: center;
+}
+.pix-payment.checkout .instruction span {
+  font-size: 1.6rem;
+  margin: 0 0 1.6rem 0;
+}
+.pix-payment.checkout .instruction p {
+  font-size: 1.2rem;
+}
+.action-primary {
+  background-image: none;
+  background: #1979c3;
+  border: 1px solid #1979c3;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  padding: 7px 15px;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+html {
+  font-size: 10px;
+}
